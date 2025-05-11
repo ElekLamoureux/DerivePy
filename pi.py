@@ -4,8 +4,8 @@ import math
 pygame.init()
 
 # Set up the screen
-screen_width = 10000
-screen_height = 10000
+screen_width = 500
+screen_height = 500
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Pygame Circle")
 r = screen_width/2
@@ -36,10 +36,10 @@ while running:
                 running = False
     
     # Drawing
-    #pygame.draw.circle(screen, (0, 255, 0), (x, y), 1)
-     #Update the display
-    #pygame.display.flip()
-    if n == 100000:
+    pygame.draw.circle(screen, (0, 255, 0), (x, y), 1)
+    #Update the display
+    pygame.display.flip()
+    if n == 100:
         total = circle + out
         print(4*circle/total)
         n = 0
