@@ -1,3 +1,3 @@
 I used a random number generator to derive pi from points on a picture of a circle and square.
 
-![Alt text](images/CircleOfPi.png)
+![](images/CircleOfPi.png)
